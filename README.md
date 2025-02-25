@@ -1,18 +1,18 @@
-# Proyecto con Tailwind CSS 4 + HTML, CSS y JavaScript Puro
+# Proyecto con Tailwind 4 + HTML, CSS y JavaScript Puro
 
 Este es un proyecto básico que utiliza **Tailwind CSS 4** a través de **CDN**, junto con **HTML, CSS y JavaScript puro**, sin necesidad de npm, Vite o Webpack.
 
 ## 📂 Estructura del Proyecto
 
 
-## 🚀 Cómo Ejecutarlo
+### 🚀 Cómo Ejecutarlo
 
 1. **Descarga o clona este repositorio**:
    ```sh
    git clone https://github.com/RocoBytes/agua.git
    ```
 
-## 🛠️ Tecnologías Usadas
+### 🛠️ Tecnologías Usadas
 
 HTML5: Estructura del proyecto.
 CSS3: Estilos adicionales personalizados.
