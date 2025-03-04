@@ -4,31 +4,200 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi Proyecto con Tailwind CSS</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body
-    class="bg-gray-100 text-gray-900 flex items-center justify-center min-h-screen"
+    
   >
-    <div class="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-lg">
-      <h1 class="text-2xl font-bold text-center text-blue-600">
-        ¡Hola Mundo con Tailwind CSS!
-      </h1>
-      <p class="mt-4 text-gray-600">
-        Este es un proyecto básico con HTML, CSS y JavaScript usando Tailwind
-        CSS sin npm con los broca cochi.
-      </p>
-      <button
-        id="miBoton"
-        class="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
-      >
-        Haz clic aquí
-      </button>
+  <div id="about-us">
+    <h1 id="title" class="text-3xl font-bold text-center text-6xl">
+        About us
+    </h1>
+    <br>
+    <h2 id="subtitle" class="font-sans italic text-center text-3xl">
+        - Crafting Elegance, <br> Savoring Purity
+    </h2>
+    <br>
+    <div class="flex flex-none md:flex-1 place-content-center">
+        <div class="basis-64 rounded-lg shadow-xl border-2 border-sky-500 border-solid m-2 text-center">
+            <h1 class="font-bold text-3xl" >Our Story</h1> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+                <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500">
+                    <p class="m-2 font-bold">Read More</p>
+                </button>
+        </div>
+        <div class="basis-64 rounded-lg shadow-xl border-2 border-sky-500 border-solid m-2 text-center">
+            <h1 class="font-bold text-3xl" >Mission</h1> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+                <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500">
+                    <p class="m-2 font-bold">Read More</p>
+                </button>
+        </div><div class="basis-64 rounded-lg shadow-xl border-2 border-sky-500 border-solid m-2 text-center">
+            <h1 class="font-bold text-3xl" >Minecraft</h1> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+                <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500">
+                    <p class="m-2 font-bold">Read More</p>
+                </button>
+        </div><div class="basis-64 rounded-lg shadow-xl border-2 border-sky-500 border-solid m-2 text-center">
+            <h1 class="font-bold text-3xl" >QA</h1> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+                <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500">
+                    <p class="m-2 font-bold">Read More</p>
+                </button>
+        </div>
     </div>
 
-    <script>
-      document.getElementById("miBoton").addEventListener("click", () => {
-        alert("¡Hola desde JavaScript wena los cabros!");
-      });
-    </script>
+</div>
+<div id="products">
+    <h1 class="text-3xl font-bold text-center text-6xl">Products</h1>
+    <br>
+    <h2 id="subtitle" class="font-sans italic text-center text-3xl">
+        - Pure Elegance in every sip
+    </h2>
+    <br>
+    <div class="flex flex-none md:flex-1 place-content-center">
+        <div class="basis-64   m-2 text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/1445/1445130.png" alt="">
+            <h1 class="font-bold text-3xl" >300ml</h1> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+                <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500">
+                    <p class="m-2 font-bold">Read More</p>
+                </button>
+        </div>
+        <div class="basis-64   m-2 text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/1445/1445130.png" alt="">
+            <h1 class="font-bold text-3xl" >300ml</h1> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+                <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500">
+                    <p class="m-2 font-bold">Read More</p>
+                </button>
+        </div><div class="basis-64   m-2 text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/1445/1445130.png" alt="">
+            <h1 class="font-bold text-3xl" >300ml</h1> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+                <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500">
+                    <p class="m-2 font-bold">Read More</p>
+                </button>
+        </div><div class="basis-64   m-2 text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/1445/1445130.png" alt="">
+            <h1 class="font-bold text-3xl" >300ml</h1> <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+                <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500">
+                    <p class="m-2 font-bold">Read More</p>
+                </button>
+        </div>
+        
+</div><br>
+<div id="benefits" class="place-content-start">
+    <h1 class="text-3xl font-bold text-center text-6xl">Benefits</h1> <br>
+    <div class="flex-col place-content-center">
+        <span class="relative -inset-1 block -skew-y-3 bg-linear-to-r from-cyan-500 to-indigo-950">
+        <span class="relative text-white dark:text-gray-950">
+        
+        <div class="flex flex-col justify-start flex-wrap">
+            <div class="  w-1/2 mt-10">
+                <h1 class="text-3xl font-bold text-start mt-10 ml-10 text-5xl">Mineral Enrichment</h1>
+            </div>
+            <div class=" size-60 ml-35 mt-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+            </div>
+        </div>
+            
+        </span>
+      </span>
+    </div> <br>
+    <div class="flex-col place-content-center">
+        <span class="relative -inset-1 block -skew-y-3 bg-linear-to-r from-indigo-950 to-blue-500">
+        <span class="relative text-white dark:text-gray-950">
+        
+        <div class="flex flex-col justify-end flex-wrap">
+            <div class="mt-10">
+                <h1 class="text-3xl font-bold text-end mt-10 mr-10 text-5xl">Wellness Impact</h1>
+            </div>
+            <div class="size-60 place-self-end mr-35 mt-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+            </div>
+        </div>
+            
+        </span>
+      </span>
+    </div> <br>
+    <div class="flex-col place-content-center">
+        <span class="relative -inset-1 block -skew-y-3 bg-linear-to-r from-blue-500 to-sky-200">
+        <span class="relative text-white dark:text-gray-950">
+        
+        <div class="flex flex-col justify-start flex-wrap">
+            <div class="  w-1/2 mt-10">
+                <h1 class="text-3xl font-bold text-start mt-10 ml-10 text-5xl">Crisp & Clean Taste</h1>
+            </div>
+            <div class=" size-60 ml-35 mt-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+            </div>
+        </div>
+            
+        </span>
+      </span>
+    </div> <br>
+    <div class="flex-col place-content-center">
+        <span class="relative -inset-1 block -skew-y-3 bg-linear-to-r from-sky-200 to-teal-400">
+        <span class="relative text-white dark:text-gray-950">
+        
+        <div class="flex flex-col justify-end flex-wrap">
+            <div class="mt-10">
+                <h1 class="text-3xl font-bold text-end mt-10 mr-10 text-5xl">Sustainability Commitment</h1>
+            </div>
+            <div class="size-60 place-self-end mr-35 mt-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+            </div>
+        </div>
+            
+        </span>
+      </span>
+    </div>
+    
+</div><br>
+<div id="testimonios"></div>
+<div id="blogs">
+    <h1 class="text-3xl font-bold text-center text-6xl">Benefits</h1> <br>
+    <div class="grid grid-cols-2 h-48 place-content-around gap-4">
+        <div class="basis-64 rounded-lg place-self-center shadow-xl m-2 w-128 h-64 bg-sky-500">
+            <H1>.</H1>
+        </div>
+        <div class="basis-64 rounded-lg place-self-center shadow-xl m-2 w-128 h-64 bg-teal-300">
+            <H1>.</H1>
+        </div>
+        <div class=" w-64 h-80 mx-auto rounded-lg shadow-xl bg-neutral-100 m-2 -mt-50">
+            <h1 class="font-bold text-3xl" >Our Story</h1> <br>
+            <p class="m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+            <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500 ml-35">
+                <p class="m-2 font-bold">Read More</p>
+            </button>
+        </div>
+        <div class=" w-64 h-80 mx-auto rounded-lg shadow-xl bg-neutral-100 m-2 -mt-50">
+            <h1 class="font-bold text-3xl" >Our Story</h1> <br>
+            <p class="m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis ultricies risus, vitae tempor dui. 
+                Maecenas ultrices feugiat urna, et faucibus arcu ornare nec. Mauris id commodo nisl. Cras in.</p> 
+            <button class="rounded-lg m-2 outline-offset-2 outline-dashed hover:not-focus:bg-sky-500 ml-35">
+                <p class="m-2 font-bold">Read More</p>
+            </button>
+        </div>
+    </div>
+</div>
+
+    
   </body>
 </html>
